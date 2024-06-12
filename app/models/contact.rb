@@ -6,7 +6,7 @@ class Contact < ApplicationRecord
     accepts_nested_attributes_for :address, allow_destroy: true
 
     
-    def hello
-        I18n.t('hello')
-    end
+    # def hello
+    #     I18n.t('hello')
+    # end
 end
