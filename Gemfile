@@ -39,7 +39,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
   gem "faker", "~> 3.4"
-  gem "i18n", "~> 1.14"
+  #gem "i18n", "~> 1.14"
   gem "pry-rails"
 end
 
@@ -49,5 +49,7 @@ group :development do
 end
 
 
-
+gem "rails-i18n", "~> 7.0"
 gem "active_model_serializers", "~> 0.10.14"
+
+
